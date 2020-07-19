@@ -8,6 +8,8 @@ I have some sites deployed on GitHub Pages, which will not use branches other th
 
 For the user root repo, ie [DuncanRitchie.github.io](https://github.com/DuncanRitchie/DuncanRitchie.github.io) for me, GitHub Pages will only deploy the “master” branch; you can’t publish “gh-pages” or any other branch. So my portfolio website is still on a “master” branch.
 
+(Happily, though, a repo with the same name as the user, eg [DuncanRitchie/DuncanRitchie](https://github.com/DuncanRitchie/DuncanRitchie), can have a default branch called “main” and its README.md will still appear on the user’s profile on GitHub.)
+
 Finally, if your repo contains markdown files (such as this one) instead of webpages, you can use GitHub Pages to deploy the markdown files as if they were webpages. But this is only true for the “master” branch. It might have been nice to have this document published at www.duncanritchie.co.uk/master-to-main/ , but I’m not renaming this repo’s default branch to “master” to do it.
 
 ## Procedure
