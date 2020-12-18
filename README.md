@@ -1,5 +1,5 @@
 # Renaming “master” to “main”
-I’m [Duncan Ritchie](www.duncanritchie.co.uk), and I have several [Git repos](https://github.com/DuncanRitchie). Here are the steps I followed to change the default branch of most of them. This guide may be useful to you if you think that the word “master” (for the default branch of version control) runs the risk of trivialising or normalising slavery, or there’s some other reason why you want to change the branch name.
+I’m [Duncan Ritchie](https://www.duncanritchie.co.uk/), and I have several [Git repos](https://github.com/DuncanRitchie). Here are the steps I followed to change the default branch of most of them. This guide may be useful to you if you think that the word “master” (for the default branch of version control) runs the risk of trivialising or normalising slavery, or there’s some other reason why you want to change the branch name.
 
 It assumes you already have a GitHub repo, and that no-one else is collaborating on it who might object to the branch being renamed.
 
@@ -46,7 +46,7 @@ Check any deploys and links to your project still work.
 ## Notes about GitHub Pages
 When I first wrote this document in July 2020, repos could not be deployed on GitHub Pages except from branches named “master” or “gh-pages”. For the user root repo (mine is [DuncanRitchie.github.io](https://github.com/DuncanRitchie/DuncanRitchie.github.io)), or for documentation repos containing only markdown files (such as this one, ironically), it couldn’t even be “gh-pages”, it had to be “master”.
 
-This is no longer the case, and GitHub Pages can deploy from any branch. I have therefore renamed “master” to “main” on my user root repo and my website is still live at www.duncanritchie.co.uk. This document itself is now deployed at www.duncanritchie.co.uk/master-to-main/, to demonstrate that it can be done.
+This is no longer the case, and GitHub Pages can deploy from any branch. I have therefore renamed “master” to “main” on my user root repo and my website is still live at [www.duncanritchie.co.uk](https://www.duncanritchie.co.uk/). This document itself is now deployed at www.duncanritchie.co.uk/master-to-main/, to demonstrate that it can be done.
 
 (For a repo with the same name as the user, eg [DuncanRitchie/DuncanRitchie](https://github.com/DuncanRitchie/DuncanRitchie), the default branch can be “main” and its README.md will still appear on the user’s profile on GitHub. This has been true since GitHub launched the user profile readme feature in July 2020.)
 
